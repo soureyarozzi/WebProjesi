@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="./Styles/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="./Styles/intrest.css" />
+    <link rel="stylesheet" type="text/css" href="./Styles/footer.css" />
+    <script src="./js/intrest.js" defer></script>
+
+    <title>ilgi-alanlarım</title>
+  </head>
+  <body>
+    <!-- NAVIGATOR-BAR STARTS -->
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+         
+        </div>
+        <ul class="menu">
+          <li><a href="./index.html" class="menu-btn">Ana Sayfa</a></li>
+          <li><a href="./Cv.html" class="menu-btn">Benim özgeçmişim</a></li>
+          <li>
+            <a href="./Mycountry.html" class="menu-btn">Çad</a>
+          </li>
+          <li>
+            <a href="./tourism.html" class="menu-btn">Turizm</a>
+          </li>
+          <li>
+            <a href="./contact.html" class="menu-btn">iletişim</a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- NAVIGATOR-BAR ENDS -->
+
+    <!-- HEADER STARTS -->
+
+    <header class="home">
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active"
+            style="background-image: url('./images/srm.jpg')"
+          >
+            <div class="container">
+              <h2>Soureya Ben</h2>
+              <p>Web Geliştiricisiyim</p>
+              <p>
+                Çocukluğumdan beri teknolojiyi severim. <br />
+                Bir geliştirici olmak için her zaman tutkuluydum. Özellikle grafik
+                tasarımcı
+              </p>
+              <a href="#about" class="btn btn-success btn-lg" href="#">Daha</a>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url('./images/equipedefr.jpg')"
+          >
+            <div class="container">
+              <h2>futbol tutkusu</h2>
+              <p>
+                futbol boş zamanlarımda en sevdiğim aktivitelerden biridir<br />
+                ister inanın ister inanmayın, o kadar çok futbol oyunu oynadım ki . futbol yüzünden ayyağım kırıldı bile ama hiç duramadım 
+              </p>
+              <a href="#gamePassion" class="btn btn-success btn-lg" href="#"
+                >Daha</a
+              >
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url('./images/voyage.jpg')"
+          >
+            <div class="container">
+              <h2>Seyahat</h2>
+              <p>
+                Diğer tutkum ise seyahat etmek, şimdiye kadar Mısır Suudi Arabistan Birleşik Emirlikler ve Türkiye olmak üzere 4 ülkeyi ziyaret ettim. Tabii ki benim de ziyaret etmek istediğim başka ülkeler de var, Yunanistan, İtalya, Maldivler, Tanzanya vb.
+              </p>
+              <a href="#travel" class="btn btn-success btn-lg">Daha</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!-- HEADER ENDS -->
+
+    <!-- MORE ABOUT ME -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box">
+              <div class="shape-02"></div>
+              <img src="./images/img35.jpg" alt="Benim hakkımda" />
+            </div>
+          </div>
+          <div class="about-content">
+            <div class="row">
+              <div class="section-title">
+                <h1>Benim hakkimda</h1>
+              </div>
+            </div>
+            <p>
+                Tam Adım Soureya Rozzi Malli Ousman Oumar.
+                merak ediyorsanız. Çad'da doğdum ve bir
+                güzel şehirde
+              <em
+                ><a
+                  href="https://fr.wikipedia.org/wiki/N%27Djam%C3%A9na#:~:text=N'Djam%C3%A9na%20a%20%C3%A9t%C3%A9%20fond%C3%A9e,Kouss%C3%A9ri%20quelques%20jours%20plus%20t%C3%B4t. "
+                  target="_blank"
+                  class="home-city"
+                  >N'Dlamena denir</a
+                ></em
+              >.Çocukluğumdan beri teknolojiyi ve futbol oynamaya cok severdim.
+              Her zaman uluslararası bir futbolcu ya da siber güvenlik uzmanı olmayı hayal etmişimdir. Artık uluslararası bir futbolcu olmak mümkün olmadığını düşünüyorum ama yine de siber güvenlik uzmanı olma hayalimi gerçekleştirebilirim. asıl hedefim FIB veya CIA üyesi olmak bu yüzden siber güvenlik uzmanı olmak istiyorum.
+ futbolcu olmak mümkün olmasa da futbolu hala çok seviyorum, aşağıda size en sevdiğim takımları ve futbolcular sunacağım. Bu konular hakkında benimle konuşmak isterseniz iletişime geçin lütfen.
+            </p>
+            <a href="./contact.html" class="btn btn-warning btn-lg"
+              >iletişime geçin</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gaming Passion STARTS -->
+    <section class="content-section" id="gamePassion">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h1>Favorim takımları ve futbolcular Bazıları</h1>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Item Start -->
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/neymar.jpg" alt="game" />
+              <div class="overlay">
+                
+              </div>
+            </div>
+          </div>
+          <!-- Item End -->
+          <!-- item Start -->
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/coman.jpg" alt="game" />
+              <div class="overlay">
+                
+              </div>
+            </div>
+          </div>
+          <!-- Item End -->
+          <!-- Item Start -->
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/issac.jpg" alt="game" />
+              <div class="overlay">
+               
+              </div>
+            </div>
+          </div>
+          <!-- Item End -->
+          <!-- Item Start -->
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/marco.jpg" alt="game" />
+              <div class="overlay">
+              
+              </div>
+            </div>
+          </div>
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/sakina.jpg" alt="game" />
+              <div class="overlay">
+              
+              </div>
+            </div>
+          </div>
+          <!-- Item End -->
+          <!-- Item Start -->
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/psg.jpg" alt="game" />
+              <div class="overlay">
+                
+              </div>
+            </div>
+          </div>
+          <!-- Item End -->
+          <!-- Item Start -->
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/Manchester.jpg" alt="game" />
+              <div class="overlay">
+               
+              </div>
+            </div>
+          </div>
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/bayern.jpg" alt="game" />
+              <div class="overlay">
+               
+              </div>
+            </div>
+          </div>
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/chelsea.jpg" alt="game" />
+              <div class="overlay">
+               
+              </div>
+            </div>
+          </div>
+          <!--Item End -->
+        </div>
+      </div>
+    </section>
+    <!-- Gaming Passion Ends -->
+
+    <!-- TRAVEL SECTION START -->
+    <section class="content-section" id="travel">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h1>Gitmek istediğim ülkeler listesi</h1>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Item Start -->
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/yunanistan.jpg" alt="travel" />
+              <div class="overlay">
+                <h4>Yunanistan</h4>
+              </div>
+            </div>
+          </div>
+          <!-- Item End -->
+          <!-- item Start -->
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/italie.jpg" alt="travel" />
+              <div class="overlay">
+                <h4>italya</h4>
+              </div>
+            </div>
+          </div>
+          <!-- Item End -->
+          <!-- Item Start -->
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/lesmaldives.jpg" alt="travel" />
+              <div class="overlay">
+                <h4>Maldivler</h4>
+              </div>
+            </div>
+          </div>
+          <!-- Item End -->
+          <!-- Item Start -->
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/japon.jpg" alt="travel" />
+              <div class="overlay">
+                <h4>Japonya</h4>
+              </div>
+            </div>
+          </div>
+          <!-- Item End -->
+          <!-- Item Start -->
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/tanzanie.jpg" alt="travel" />
+              <div class="overlay">
+                <h4>Tanzanya</h4>
+              </div>
+            </div>
+          </div>
+          <!-- Item End -->
+          <!-- Item Start -->
+          <div class="content-item">
+            <div class="content-item-inner">
+              <img src="./images/thailande.jpg" alt="travel" />
+              <div class="overlay">
+                <h4>Tayland</h4>
+              </div>
+            </div>
+          </div>
+          <!--Item End -->
+        </div>
+      </div>
+    </section>
+    <!-- TRAVEL SECTION ENDS -->
+
+    <!----------------------------PHOTO API------------------------->
+    <div class="col-12 padding heading"></div>
+    <div class="contain api">
+      <br />
+      <h1 style="margin-left: 30%">Mini Photo Search</h1>
+      <br />
+      <form id="form" autocomplete="off">
+        <div class="form-group col-md-6">
+          <input
+            type="text"
+            class="form-control"
+            id="search"
+            placeholder="Search for free photos..."
+          />
+        </div>
+        <div class="form-group col-md-6 center">
+          <input type="submit" class="btn btn-danger" value="search" />
+        </div>
+      </form>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div id="images"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER SECTION STARTS -->
+    <footer>
+      <span>
+        Soureya Rozzi Malli <a href="#">Tarafından dizayn edilmiştir</a> |
+        <span class="far fa-copyright"></span> 2022 Tüm hakları saklıdır.</span
+      >
+    </footer>
+    <!-- FOOTER SECTION ENDS -->
+  </body>
+</html>
