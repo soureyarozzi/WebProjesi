@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <link rel = stylesheet type = "text/css" href = "./Styles/tourism.css">
+  <link rel = stylesheet type="text/css" href="./Styles/navbar.css">
+  <link rel = stylesheet type="text/css" href="./Styles/footer.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+  <title>Miras</title>
+
+</head>
+
+<body>
+  <section class = "intro">
+
+    <!-- NAVIGATOR BAR START -->
+  <nav class="navbar">
+    <div class="max-width">
+      
+      <ul class="menu">
+        <li><a href="./index.html" class="menu-btn">Ana Sayfa</a></li>
+        <li><a href="./Cv.html" class="menu-btn"> Benim özgeçmişim</a></li>
+        <li><a href="./Mycountry.html" class="menu-btn">Çad</a></li>
+        <li><a href="#" class="menu-btn">Turizm</a></li>
+        <li><a href="./contact.html" class="menu-btn">iletişim</a></li>
+      </ul>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVIGATOR BAR ENDS -->
+
+      <div class="welcome display-4">
+          <h1>Miras</h1>
+       </div>
+  </section> 
+  <div class="container-fluid main">
+      <div class="col-lg-8 heading">
+          <h1>Çad Mirası</h1>
+          <p>
+            
+          
+          
+          
+          
+          
+          
+          </p><br>
+          <ul>
+              <li>Begon II metalurji sitesi. 2005.</li>
+              <li>Djourab antik insansı sitesi. 2005.</li>
+              <li>Ouara'nın kalıntıları. 2005.</li>
+              <li>Télé-Nugar'ın ilginç demir madenleri. 2005.</li>
+              <li>Ennedi ve Tibesti kaya gravürleri ve resimleri. 2005.</li>
+              <li>Zakouma Ulusal Parkı. 2005.</li>
+              <li>Çad Gölü Kültürel Manzarası. 2018.</li>
+          
+            
+          </ul>
+          <br>
+      </div>
+  </div> 
+
+  <!---------------------------Featurette------------------------------->
+  <section class="details">
+  <div class="col-lg-8 heading">
+      <h1>Bazı miraslarımız tanıtımı</h1><br>
+
+  </div>
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Zakouma Ulusal Parkı <span class="muted">Parc national de zakouma</span></h2>
+      <p class="lead">TZakouma Ulusal Parkı, Çad'ın Güneydoğusunda yer almaktadır. Yaklaşık üç yüz beş bin (305.000) hektarlık bir alanı kaplamaktadır.
+        1963'te kurulan Zakouma Milli Parkı, şu anda Sahelian Afrika'daki son vahşi yaşam koruma alanlarından biridir ve hala çok sayıda büyük memeliye ev sahipliği yapmaktadır.</p>
+    </div>
+    <div class="col-md-5">
+      <img src="./images/zakouma.jpg" width="400" height="auto">
+
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+      <div class="col-md-5 order-md-1">
+          <img src="./images/lactchad.jpg" width="400" height="auto">
+        </div>
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading">Çad Gölü <span class="muted"> Lac Tchad</span></h2>
+      <p class="lead">Çad Gölü, Çad, Kamerun, Nijer ve Nijerya olmak üzere dört (4) ülke arasında bir kumul masifinin ortasında uzanan sığ bir tatlı su alanıdır.Bölgesi, yorumu birçok tartışmaya konu olan varyasyonlara maruz kalmıştır. 
+        Yağışlı mevsim sonunda bugünkü genişliği 17.000 km2 civarındadır. Esas olarak Logone, Chari ve Komadougou Yobé nehirleri tarafından beslenen endoreik bir göldür.</p>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Djourab <span class="muted">Djourab</span></h2>
+      <p class="lead">Lİnsansı yerleşim yerleri, 16" paralelin kuzeyinde, N'Djamena'nın 800 km kuzeyinde, Djourab'ın kum tepelerinde yer almaktadır. 
+        Şu anda çöl ve tektonik olarak sakin olan bölge özellikle düzdür. </p>
+    <div class="col-md-5">
+      <img src="./images/djourqb.jpg" width="400" height="auto">
+
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+  <div class="row featurette">
+      <div class="col-md-5">
+          <img src="./images/tibesti.jpg" width="400" height="auto">
+  
+        </div>
+        <div class="col-md-7">
+        <h2 class="featurette-heading">Ennedi ve Tibesti kaya gravürleri ve resimleri.<span class="muted"> Gravures et peintures rupestres de l'Ennedi et du Tibesti.</span></h2>
+        <p class="lead">küresel olarak Tibesti'de iki yüz gravür istasyonu ve onları Orta Sahra'ya veya Ennedi'ye bağlayan, Nubia'dan önemli kültürel katkıların geldiği masif çevresinin eklenmesi gereken yaklaşık altmış tablo var. 
+          Bu gravürler ve resimler MÖ 4. binyıldan kalmadır.</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+      <!---------------------------VIDEO------------------------------->
+      <section class = "last row">
+      <div class="col-lg-8 heading"><br>
+    <h1>Daha öğrenmek için</h1>
+  </div>
+  <div class="youtube-vid col-lg-7 col-md-9 col-sm-9 col-xs-8">
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe  class = "embed-responsive-item" width="560" height="315" src="https://www.youtube.com/watch?v=fpD9T5O5_KY" title="YouTube video player" frameborder="0" allow="accelerometer; 
+        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div><br>
+</div><br><br>
+      </section>
+
+       <!-- FOOTER SECTION STARTS -->
+    <footer>
+      <span
+        >Soureya Rozzi Malli <a href="./contact.html">Tarafından dizayn edilmiştir</a> |
+        <span class="far fa-copyright"></span>  2023 Tüm hakları saklıdır..</span
+      >
+    </footer>
+    <!-- FOOTER SECTION ENDS -->
+  
+  <script src = "./js/script.js" defer> </script>
+</body>
+</html>
